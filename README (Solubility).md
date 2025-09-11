@@ -7,7 +7,7 @@ Two models were built and compared: **Linear Regression** and **Random Forest Re
 
 ## 🎯 Project Purpose
 
-The purpose of this project is to leverage molecular descriptors to predict solubility values.  
+The purpose of this project is to leverage molecular descriptors to predict solubility values. 
 Accurate predictions of solubility are important in **drug discovery and materials science** where solubility affects absorption, bioavailability, and formulation.
 
 ---
@@ -15,7 +15,7 @@ Accurate predictions of solubility are important in **drug discovery and materia
 ## 📂 Project Structure
 ```
 ├── ae605631-55b8-4b3d-a7ab-f93f57868144.ipynb   # Main Jupyter Notebook
-├── delaney_solubility_with_descriptors.csv      # Dataset
+├── delaney_solubility_with_descriptors.csv      ['Dataset']
 ├── README.md                                   # Documentation
 ```
 
@@ -34,7 +34,7 @@ pip install pandas scikit-learn matplotlib jupyter
 ## 🚀 Steps in the Project
 
 1. **Data Loading & Preparation**
-   - Loaded the dataset `delaney_solubility_with_descriptors.csv`.
+   - Loaded the dataset [`delaney_solubility_with_descriptors.csv` ](https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/delaney_solubility_with_descriptors.csv)
    - Features: MolLogP, MolWt, NumRotatableBonds, AromaticProportion.
    - Target: `logS` (solubility).
    - Split dataset into **80% training** and **20% testing**.
